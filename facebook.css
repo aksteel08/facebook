@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border solid 2px red;
+}
+
+body{
+    background-color: rgb(237, 240, 240);
+    padding: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+.brandcover{
+    margin-top: 90px;
+    margin-left: 60px;
+    width: 60%;
+}
+
+.brand{
+    height: 50px;
+    width: auto;
+}
+
+.motto{
+   font-size: 28px;
+   margin-top: 20px;
+   width: 80%;
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login{
+    width: 85%;
+    height: 80%;
+    margin-top: 40px;
+    background-color: white;
+    border: none;
+    margin-right: 40px;
+    margin-left: 0px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.email{
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+}
+
+
+.password{
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: solid 1px lightgray;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.first{
+    background-color: rgb(16, 105, 163);
+    width: 100%;
+    margin-top: 15px;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(30, 116, 173);
+    margin-left: 100px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.second{
+    background-color: limegreen;
+    margin-top: 20px;
+    height: 50px;
+    width: 55%;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 90px;
+    padding: 10px;
+}
+
+.page{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.page:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
